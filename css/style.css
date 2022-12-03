@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
@@ -77,6 +84,7 @@ body{
     font-family: var(--main-font-family);
     font-weight: var(--main-regular-font-weight);
     background-color: var(--main-body-bg-color);
+    overflow-x: hidden;
 }
 
 .container{
